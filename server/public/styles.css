@@ -1,0 +1,52 @@
+.background {
+  height: 100;
+  width: 100vw;
+  position: absolute;
+}
+
+/* .background::after {
+  content: "";
+  background-image: url("img/background.jpeg");
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+} */
+
+img {
+  height: 24rem;
+  width: 20rem;
+  border-radius: 50%;
+}
+
+.nav-color {
+  background: #212529;
+  background: linear-gradient(left, #212529 0%, #b195ea 75%, #ebbef9 100%);
+  background: linear-gradient(left, #212529 0%, #b195ea 75%, #ebbef9 100%);
+  background: linear-gradient(to right, #212529 0%, #b195ea 75%, #ebbef9 100%);
+}
+
+.text-size {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.personal-photo {
+  height: 26rem;
+
+  /* background: #212529; */
+
+  /* background: linear-gradient(left, #212529 0%, #b195ea 75%, #ebbef9 100%);
+  background: linear-gradient(left, #212529 0%, #b195ea 75%, #ebbef9 100%);
+  background: linear-gradient(to right, #212529 0%, #b195ea 75%, #ebbef9 100%); */
+}
+
+@media screen and (max-width: 450px) {
+  .text-size {
+    font-size: x-large;
+    font-weight: bold;
+  }
+}
