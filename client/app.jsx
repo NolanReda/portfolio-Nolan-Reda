@@ -31,7 +31,7 @@ export default class App extends React.Component {
           <div className='personal-photo d-flex justify-content-center align-items-center mb-5'>
             <img className='myself' src="img/nolan-reda.jpg" alt="Nolan Reda" />
           </div>
-          <div className='about-me mt-5 mb-5'>
+          <div className='about-me mt-5 mb-5 text-center'>
             <p className='text-center text-monospace'>
               I&apos;m Nolan Reda, A.S. in busisness administration, and software developer.<br/>
               I enjoy software developement because it has given me pathways into joining my creativity<br />
@@ -46,6 +46,10 @@ export default class App extends React.Component {
               Since attending and graduating LearningFuze, I have unlocked a passion for web developement that I never imagined myself<br/>
               being a part of and I can not wait to lend my talents and skills to team that I can grow alongside of in the professional world.
             </p>
+            <button className='btn btn-lg mt-4 btn-outline-primary'>
+              <a className='resume text-monospace' href="resume/Nolan_Reda_Resume.pdf" download="Nolan_Reda_resume.pdf">Download My Resume</a>
+            </button>
+
           </div>
           <div className='technologies mb-5 text-center'>
             <div className='mt-5'>
