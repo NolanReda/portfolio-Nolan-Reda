@@ -16,7 +16,11 @@
   z-index: -1;
 } */
 
-img {
+.hello-nolan {
+  height: 6rem;
+}
+
+.myself {
   height: 24rem;
   width: 20rem;
   border-radius: 50%;
@@ -32,6 +36,7 @@ img {
 .text-size {
   font-size: xx-large;
   font-weight: bold;
+  height: ;
 }
 
 .personal-photo {
@@ -44,9 +49,66 @@ img {
   background: linear-gradient(to right, #212529 0%, #b195ea 75%, #ebbef9 100%); */
 }
 
+.tech-img {
+  height: 3rem;
+  width: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.technologies {
+  height: 45rem;
+  padding-top: 0.75rem;
+  background: #212529;
+  background: linear-gradient(left, #212529 0%, #b195ea 75%, #ebbef9 100%);
+  background: linear-gradient(left, #212529 0%, #b195ea 75%, #ebbef9 100%);
+  background: linear-gradient(to right, #212529 0%, #b195ea 75%, #ebbef9 100%);
+}
+
+.tech-wrapper {
+  background-color: white;
+  height: 6rem;
+  padding: 0.5rem;
+  border-radius: 15%;
+}
+
+.ejs {
+  width: 150px;
+}
+
+.node {
+  width: 75px;
+}
+
 @media screen and (max-width: 450px) {
+  .about-me {
+    padding: 0 2rem;
+  }
+
+  .technologies {
+    height: 83rem;
+  }
+
   .text-size {
     font-size: x-large;
     font-weight: bold;
+  }
+
+  .frontend {
+    padding: 0 3rem;
+  }
+
+  .backend {
+    padding: 0;
+  }
+
+  .tech-wrapper {
+    margin: 5px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .backend,
+  .frontend {
+    padding: 0 15rem;
   }
 }
