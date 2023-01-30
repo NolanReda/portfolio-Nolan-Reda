@@ -14,6 +14,7 @@ export default class Navbar extends React.Component {
             <a className="nav-item nav-link active text-light" href="#">Home <span className="sr-only">(current)</span></a>
             <a className="nav-item nav-link text-light" href="#resume">Resume</a>
             <a className="nav-item nav-link text-light" href="#projects">Projects</a>
+            <a className='nav-item nav-link text-light' href="#test" >Test</a>
           </div>
         </div>
       </nav>

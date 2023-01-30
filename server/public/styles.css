@@ -1,10 +1,32 @@
+.box-1 {
+  background-color: black;
+  height: 30rem;
+}
+
+.box-2 {
+  background-color: black;
+  height: 30rem;
+  position: relative;
+  top: 10rem;
+  left: 0;
+}
+
+.back-test {
+  background-image: url("img/background.jpeg");
+  height: 75vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .background {
   height: 100;
   width: 100vw;
-  position: absolute;
 }
 
-/* .background::after {
+/* .top-box::after {
   content: "";
   background-image: url("img/background.jpeg");
   opacity: 0.7;
@@ -14,16 +36,54 @@
   right: 0;
   position: absolute;
   z-index: -1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 } */
 
+.background-img {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.top-box {
+  height: 35rem;
+  background-image: url("img/graduate-photo-hero.jpg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right 1rem bottom -26.75rem;
+  background-attachment: fixed;
+}
+
 .hello-nolan {
-  height: 6rem;
+  flex-basis: 50%;
+  position: relative;
+  background-color: white;
+}
+
+.personal-photo {
+  height: 26rem;
+  flex-basis: 50%;
+
+  /* position: relative; */
+
+  /* background-image: url("img/graduate-photo-hero.jpg"); */
 }
 
 .myself {
   height: 24rem;
   width: 20rem;
-  border-radius: 50%;
+}
+
+.about-me {
+  padding: 0 6rem;
 }
 
 .nav-color {
@@ -37,16 +97,6 @@
   font-size: xx-large;
   font-weight: bold;
   height: ;
-}
-
-.personal-photo {
-  height: 26rem;
-
-  /* background: #212529; */
-
-  /* background: linear-gradient(left, #212529 0%, #b195ea 75%, #ebbef9 100%);
-  background: linear-gradient(left, #212529 0%, #b195ea 75%, #ebbef9 100%);
-  background: linear-gradient(to right, #212529 0%, #b195ea 75%, #ebbef9 100%); */
 }
 
 .tech-img {
@@ -79,21 +129,34 @@
   width: 75px;
 }
 
-.download {
-  background-color: #b195ea !important;
-}
-
 .resume {
   color: black !important;
+}
+
+.font-s {
+  font-size: smaller;
 }
 
 @media screen and (max-width: 450px) {
   .about-me {
     padding: 0 2rem;
+    width: 20rem;
+  }
+
+  .font-s {
+    font-size: x-small;
+  }
+
+  .top-box {
+    height: 27rem;
+  }
+
+  .download {
+    display: none !important;
   }
 
   .technologies {
-    height: 83rem;
+    height: 97rem;
   }
 
   .text-size {
