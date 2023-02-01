@@ -38,7 +38,7 @@ export default class App extends React.Component {
     const contextValue = { route };
     return (
       <AppContext.Provider value={contextValue}>
-        <header className='mb-2 sticky-top'>
+        <header className='sticky-top'>
           <Navbar />
         </header>
         <PageContainer>

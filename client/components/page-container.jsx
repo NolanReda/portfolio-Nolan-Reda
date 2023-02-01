@@ -9,7 +9,7 @@ const styles = {
 export default function PageContainer({ children }) {
   return (
     <div className='page-container'>
-      <div className='container-fluid just-cent' style={styles.pages}>
+      <div className='' style={styles.pages}>
         {children}
       </div>
     </div>
