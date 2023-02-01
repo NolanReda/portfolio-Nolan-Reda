@@ -68,7 +68,7 @@
   background-image: url("img/nolan-hero.png");
   background-size: 46%;
   background-repeat: no-repeat;
-  background-position: right 2rem bottom 4rem;
+  background-position: right 2rem bottom 1rem;
   background-attachment: fixed;
 }
 
@@ -121,19 +121,28 @@
   margin-bottom: 0.5rem;
 }
 
+.line {
+  width: 3px;
+  height: 95px;
+  background-color: #903237;
+  margin-left: 6rem;
+}
+
 .second-photo {
   background-image: url("img/nolan-reda.jpg");
   background-size: 46%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: left 3rem top 1rem;
 }
 
 .technologies {
   display: flex;
-  height: 50rem;
+  height: 52rem;
 
   /* width: 50vw; */
-  padding-top: 0.75rem;
+  padding-top: 5.75rem;
+  padding-bottom: 3rem;
   background-color: white;
 
   /* background: #212529;
@@ -185,6 +194,35 @@
   height: 2rem;
   border-radius: 50%;
   margin: 0 2px;
+}
+
+.projects {
+  width: 90vw;
+  margin: auto;
+}
+
+.project-wrapper {
+  height: 50rem;
+  margin: 0 auto;
+  border: solid 2px;
+  border-radius: 10px 10px 0 0;
+}
+
+.project-head {
+  height: 3rem;
+  padding-top: 0.6rem;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+.project-img {
+  height: 40rem;
+  width: 25rem;
+}
+
+.project-foot {
+  height: 6.8rem;
+  background-color: white;
 }
 
 @media screen and (max-width: 450px) {

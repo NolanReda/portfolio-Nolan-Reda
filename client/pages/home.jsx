@@ -7,8 +7,9 @@ export default function Home() {
       {/* <div className='background-img'>
         <img src="img/background.jpeg" alt="" />
       </div> */}
-      <div id='intro-box' className='intro-box d-flex mt-5'>
+      <div id='intro-box' className='intro-box d-flex'>
         <div className='mt-5 text-center hello-nolan'>
+          <div className='line' />
           <div id='name' className='name'>
             <p className='text-size text-monospace text-left'>Nolan Reda<br /> Software Developer</p>
           </div>
@@ -125,13 +126,32 @@ export default function Home() {
         </div>
 
       </div>{/* end of technologies */}
-      <div id='projects' className='projects d-flex'>
-        <div>
-          <img src="img/proj/lookingtoplay-mobile.png" alt="" />
+      <div id='projects' className='projects'>
+        <div className='text-center text-monospace text-size'>
+          <p>Projects</p>
         </div>
-        <div>
-          <img src="img/proj/pegasus-mobile.png" alt="" />
+        <div className='d-flex'>
+          <div className='project-wrapper'>
+            <div className='project-head'>
+              <p className='text-center text-monospace'>Looking To Play</p>
+              <p />
+            </div>
+            <img className='project-img' src="img/proj/lookingtoplay-mobile.png" alt="" />
+            <div className='project-foot'>
+              <p>Full Stack project</p>
+            </div>
+          </div>
+          <div className='project-wrapper'>
+            <div className='project-head'>
+              <p className='text-center text-monospace'>Pegasus Deck Builder</p>
+            </div>
+            <img className='project-img' src="img/proj/pegasus-mobile.png" alt="" />
+            <div className='project-foot'>
+              <p>Front-end project </p>
+            </div>
+          </div>
         </div>
+
       </div>{/* end of projects */}
     </main>
   );
