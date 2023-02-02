@@ -33,6 +33,7 @@ export default function Home() {
       </div>{/* end of top-box */}
       <div id='skills-box' className='skills-box d-flex mt-5' />
       <div id='technologies' className='technologies mb-5 text-center'>
+        <div className='line-2' />
         <div className='col-half second-photo' />
         <div className='col-half'>
           <div className='mt-5'>
