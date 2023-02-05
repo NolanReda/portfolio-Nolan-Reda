@@ -195,10 +195,11 @@
 }
 
 .project-wrapper {
-  height: 50rem;
-  margin: 0 auto;
+  height: 57rem;
+  margin: 3rem 0;
   border: solid 2px;
   border-radius: 10px 10px 0 0;
+  width: 25.2rem;
 }
 
 .project-head {
@@ -214,8 +215,13 @@
 }
 
 .project-foot {
-  height: 6.8rem;
+  height: 13.8rem;
   background-color: white;
+}
+
+.ltp-tech {
+  height: 3rem;
+  margin: 0 10px;
 }
 
 .line {
@@ -236,10 +242,43 @@
   bottom: 5.8rem;
 }
 
+.nav-socials {
+  margin-right: 3rem;
+}
+
 @media screen and (max-width: 450px) {
+  .background {
+    width: 107vw;
+  }
+
   .about-me {
     padding: 0 2rem;
     width: 20rem;
+  }
+
+  .intro-box {
+    background-size: 0;
+    padding: 0 2rem;
+  }
+
+  .line {
+    margin-left: 2rem;
+  }
+
+  .nav-socials {
+    margin: 0;
+  }
+
+  .line-2 {
+    display: none;
+  }
+
+  .col-half {
+    flex-basis: 100%;
+  }
+
+  .second-photo {
+    display: none;
   }
 
   .nav-logo {
@@ -260,6 +299,7 @@
 
   .technologies {
     height: 97rem;
+    width: 108vw;
   }
 
   .text-size {
@@ -278,12 +318,64 @@
   .tech-wrapper {
     margin: 5px;
   }
+
+  .name {
+    padding: 0 2rem;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+
+  header {
+    width: 108vw;
+  }
+
+  .other-tech {
+    width: 96vw;
+    margin-left: 0.5rem;
+  }
+
+  .project-wrapper {
+    height: 47rem;
+    margin-bottom: 3rem;
+    width: 19.7rem;
+  }
+
+  .project-img {
+    height: 30rem;
+    width: 19.46rem;
+  }
+
+  .project-foot {
+    height: 13.8rem;
+  }
+
+  .ltp-tech {
+    height: 2rem;
+    margin: 0 11px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
   .backend,
   .frontend {
     padding: 0 5rem;
+  }
+
+  .project-row {
+    display: flex;
+  }
+
+  .project-wrapper {
+    height: 43rem;
+    width: 44.2rem;
+    margin: 2rem;
+  }
+
+  .project-img {
+    width: 39rem;
+    height: 26rem;
   }
 }
 }
