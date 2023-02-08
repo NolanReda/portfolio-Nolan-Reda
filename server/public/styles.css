@@ -1,0 +1,426 @@
+.box-1 {
+  background-color: black;
+  height: 30rem;
+}
+
+.box-2 {
+  background-color: black;
+  height: 30rem;
+  position: relative;
+  top: 10rem;
+  left: 0;
+}
+
+.back-test {
+  background-image: url("img/background.jpeg");
+  height: 75vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background {
+  height: 100;
+  width: 100vw;
+  background-color: #e6e6e6;
+}
+
+.link-color {
+  color: #903237 !important;
+}
+
+.link-color:hover {
+  color: ghostwhite !important;
+}
+
+/* .top-box::after {
+  content: "";
+  background-image: url("img/background.jpeg");
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.background-img {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.intro-box {
+  background-color: #e6e6e6;
+  height: 38rem;
+  background-image: url("img/nolan-hero.png");
+  background-size: 46%;
+  background-repeat: no-repeat;
+  background-position: right 2rem bottom 1rem;
+  background-attachment: fixed;
+}
+
+.hello-nolan {
+  flex-basis: 50%;
+  position: relative;
+  background-color: #e6e6e6;
+}
+
+.personal-photo {
+  height: 26rem;
+  flex-basis: 50%;
+
+  /* position: relative; */
+
+  /* background-image: url("img/graduate-photo-hero.jpg"); */
+}
+
+.myself {
+  height: 24rem;
+  width: 20rem;
+}
+
+.about-me {
+  padding: 0 6rem;
+}
+
+.nav-color {
+  background-color: white;
+
+  /* background: #212529;
+  background: linear-gradient(left, #212529 0%, #b195ea 75%, #ebbef9 100%);
+  background: linear-gradient(left, #212529 0%, #b195ea 75%, #ebbef9 100%);
+  background: linear-gradient(to right, #212529 0%, #b195ea 75%, #ebbef9 100%); */
+}
+
+.text-size {
+  font-size: xx-large;
+  font-weight: bold;
+  height: ;
+}
+
+.name {
+  padding: 0 6rem;
+}
+
+.tech-img {
+  height: 3rem;
+  width: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.second-photo {
+  background-image: url("img/nolan-reda.jpg");
+  background-size: 46%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left 3rem top 1rem;
+}
+
+.technologies {
+  display: flex;
+  height: 52rem;
+
+  /* width: 50vw; */
+  padding-top: 5.75rem;
+  padding-bottom: 3rem;
+  background-color: white;
+
+  /* background: #212529;
+  background: linear-gradient(left, #212529 0%, #b195ea 75%, #ebbef9 100%);
+  background: linear-gradient(left, #212529 0%, #b195ea 75%, #ebbef9 100%);
+  background: linear-gradient(to right, #212529 0%, #b195ea 75%, #ebbef9 100%); */
+}
+
+.tech-wrapper {
+  background-color: white;
+  height: 6rem;
+  padding: 0.5rem;
+  border-radius: 15%;
+}
+
+.ejs {
+  width: 150px;
+}
+
+.node {
+  width: 75px;
+}
+
+.resume {
+  color: black !important;
+}
+
+.font-s {
+  font-size: smaller;
+}
+
+.nav-logo {
+  width: 10rem;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.col-half {
+  flex-basis: 50%;
+}
+
+.col-width-500 {
+  width: 500px;
+}
+
+.git {
+  height: 2rem;
+  border-radius: 50%;
+  margin: 0 2px;
+}
+
+.projects {
+  width: 90vw;
+  margin: auto;
+}
+
+.project-wrapper {
+  height: 57rem;
+  margin: 3rem 0;
+  border: solid 2px;
+  border-radius: 10px 10px 0 0;
+  width: 25.2rem;
+}
+
+.project-head {
+  height: 3rem;
+  padding-top: 0.6rem;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+.project-img {
+  height: 40rem;
+  width: 25rem;
+}
+
+.project-foot,
+.pegasus-foot {
+  background-color: white;
+}
+
+.ltp-tech {
+  height: 3rem;
+  margin: 0 10px;
+}
+
+.line {
+  width: 3px;
+  height: 95px;
+  background-color: #903237;
+  margin-left: 6rem;
+  position: relative;
+  bottom: 3rem;
+}
+
+.line-2 {
+  width: 3px;
+  height: 110px;
+  background-color: #903237;
+  position: relative;
+  left: 83rem;
+  bottom: 5.8rem;
+}
+
+.nav-socials {
+  margin-right: 3rem;
+}
+
+.c-black {
+  color: black;
+}
+
+@media screen and (max-width: 450px) {
+  .background {
+    width: 107vw;
+  }
+
+  .about-me {
+    padding: 0 2rem;
+    width: 20rem;
+  }
+
+  .intro-box {
+    background-size: 0;
+    padding: 0 2rem;
+  }
+
+  .line {
+    margin-left: 2rem;
+  }
+
+  .nav-socials {
+    margin: 0;
+  }
+
+  .line-2 {
+    display: none;
+  }
+
+  .col-half {
+    flex-basis: 100%;
+  }
+
+  .second-photo {
+    display: none;
+  }
+
+  .nav-logo {
+    width: 9.5rem;
+  }
+
+  .font-s {
+    font-size: x-small;
+  }
+
+  .top-box {
+    height: 27rem;
+  }
+
+  .download {
+    display: none !important;
+  }
+
+  .technologies {
+    height: 97rem;
+    width: 108vw;
+  }
+
+  .text-size {
+    font-size: x-large;
+    font-weight: bold;
+  }
+
+  .frontend {
+    padding: 0 3rem;
+  }
+
+  .backend {
+    padding: 0;
+  }
+
+  .tech-wrapper {
+    margin: 5px;
+  }
+
+  .name {
+    padding: 0 2rem;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+
+  header {
+    width: 108vw;
+  }
+
+  .other-tech {
+    width: 96vw;
+    margin-left: 0.5rem;
+  }
+
+  .project-wrapper {
+    height: 47rem;
+    margin-bottom: 3rem;
+    width: 19.7rem;
+  }
+
+  .ltp-img {
+    height: 30rem;
+    width: 19.46rem;
+  }
+
+  .pegasus-img {
+    height: 30rem;
+    width: 19.46rem;
+  }
+
+  .project-foot,
+  .pegasus-foot {
+    height: 13.8rem;
+  }
+
+  .ltp-tech {
+    height: 2rem;
+    margin: 0 11px;
+  }
+
+  .prj-title {
+    margin: 0 2rem;
+  }
+
+  .prj-link {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .backend,
+  .frontend {
+    padding: 0 5rem;
+  }
+
+  .project-row {
+    display: flex;
+  }
+
+  .project-wrapper {
+    height: 43rem;
+    width: 44.2rem;
+    margin: 2rem;
+  }
+
+  .ltp-img {
+    width: 39rem;
+    height: 26rem;
+  }
+
+  .project-foot {
+    height: 13.8rem;
+  }
+
+  .pegasus-img {
+    width: 39rem;
+    height: 20rem;
+  }
+
+  .prj-tech-row {
+    padding: 0 100px;
+  }
+
+  .pegasus-foot {
+    height: 19.8rem;
+    background-color: white;
+    padding: 7rem 1rem;
+  }
+
+  .prj-title {
+    width: 200px;
+    margin: 0 1rem;
+  }
+
+  .prj-link {
+    display: inline-block;
+  }
+}
