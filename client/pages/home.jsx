@@ -148,12 +148,16 @@ export default class Home extends React.Component {
           <div className='project-row justify-content-around'>
             <div className='project-wrapper'>
               <div className='project-head'>
-                <p className='text-center text-monospace'>Looking To Play</p>
-                <p />
+                <a className='c-black' href="https://github.com/NolanReda/Looking-To-Play" target="_blank" rel="noreferrer">
+                  <img className='git' src="img/techs/github.png" alt="" />
+                  <p className='prj-link text-monospace'>visit repository</p>
+                </a>
+                <p className='prj-title text-center text-monospace d-inline-block ml-5'>Looking To Play</p>
+
               </div>
-              <img className='project-img' src={window.screen.width < 450 ? 'img/proj/lookingtoplay-mobile.png' : 'img/proj/lookingtoplay-full.png'} alt="" />
+              <img className='ltp-img' src={window.screen.width < 450 ? 'img/proj/lookingtoplay-mobile.png' : 'img/proj/lookingtoplay-full.png'} alt="Looking to Play" />
               <div className='project-foot p-3'>
-                <p className='text-center'>A full-stack project built on a React for Counter Strike: Global Offensive players to find teammates in their region and skillgroup.</p>
+                <p className='text-center text-monospace'>A full-stack project built on a React for Counter Strike: Global Offensive players to find teammates in their region and skillgroup.</p>
                 <div className='prj-tech-row text-center'>
                   <img className='ltp-tech ml-4' src="img/techs/JS.png" alt="JavaScript" />
                   <img className='ltp-tech' src="img/techs/css.png" alt="CSS" />
@@ -166,12 +170,23 @@ export default class Home extends React.Component {
             </div>
             <div className='project-wrapper'>
               <div className='project-head'>
-                <p className='text-center text-monospace'>Pegasus Deck Builder</p>
+                <a className='c-black' href="https://github.com/NolanReda/Pegasus-Deck-Builder" target="_blank" rel="noreferrer">
+                  <img className='git' src="img/techs/github.png" alt="" />
+                  <p className='prj-link text-monospace'>visit repository</p>
+                </a>
+                <p className='prj-title text-center text-monospace d-inline-block'>Pegasus Deck Builder</p>
               </div>
-              <img className='project-img' src={window.screen.width < 450 ? 'img/proj/pegasus-mobile.png' : 'img/proj/pegasus-full.png'} alt="" />
-              <div className='project-foot p-3'>
-                <p className='text-center'>Front-end project </p>
+              <img className='pegasus-img' src={window.screen.width < 450 ? 'img/proj/pegasus-mobile.png' : 'img/proj/pegasus-full.png'} alt="Pegasus Deck Builder" />
+              <div className='pegasus-foot'>
+                <p className='text-center text-monospace'>A front-end project utilizing JavaScript AJAX for Yu-gi-oh players who want to build and save custom decks. </p>
+                <div className='prj-tech-row text-center pt-3'>
+                  <img className='ltp-tech ' src="img/techs/html.png" alt="JavaScript" />
+                  <img className='ltp-tech ' src="img/techs/JS.png" alt="JavaScript" />
+                  <img className='ltp-tech' src="img/techs/css.png" alt="CSS" />
+                  <img className='ltp-tech' src="img/techs/ajax.png" alt="React.js" />
+                </div>
               </div>
+
             </div>
           </div>
 
