@@ -1,26 +1,30 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export default class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      LTPmobile: 'img/proj/lookingtoplay-mobile.jpg',
-      LTPfull: 'img/proj/lookingtoplay-full.jpg',
-      PDBmobile: 'img/proj/pegasus-mobile.jpg',
-      PDBfull: 'img/proj/pegasus-full.jpg'
+      email: 'Email'
     };
-    this.projPicSize = this.projPicSize.bind(this);
+    this.showEmail = this.showEmail.bind(this);
   }
 
-  projPicSize() {
+  showEmail(event) {
+    if (this.state.email === 'Email') {
+      this.setState({ email: 'nolan.reda@gmail.com' });
+    }
+    if (this.state.email === 'nolan.reda@gmail.com') {
+      this.setState({ email: 'Email' });
+    }
   }
 
   render() {
+    const { email } = this.state;
     return (
       <main className=''>
-        {/* <div className='background-img'>
-        <img src="img/background.jpeg" alt="" />
-      </div> */}
         <div id='intro-box' className='intro-box d-flex'>
           <div className='mt-5 text-center hello-nolan'>
             <div className='line' />
@@ -191,6 +195,29 @@ export default class Home extends React.Component {
           </div>
 
         </div>{/* end of projects */}
+        <div id='contact' className='contact'>
+          <div className='text-center text-monospace text-size'>
+            <p className='text-white'>Contact Info</p>
+          </div>
+          <div className='d-flex'>
+            <img className='con-img' src="img/Nolan---Circle.png" alt="" />
+            <div className='col'>
+              <a className='nav-item nav-link d-flex align-items-center text-white' href="https://linkedin.com/in/nolanreda/" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                <p className='con-link'>LinkedIn</p>
+              </a>
+              <a className='nav-item nav-link d-flex align-items-center text-white' href="https://github.com/NolanReda" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faGithub} size="2x" />
+                <p className='con-link'>Github</p>
+              </a>
+              <div onClick={this.showEmail} className='hand nav-link d-flex align-items-center text-white'>
+                <FontAwesomeIcon icon={faEnvelope} size="2x" />
+                <p className='con-link'>{email}</p>
+              </div>
+            </div>
+          </div>
+        </div>{/* end of contacts */}
+        <div className='bt-bar' />
       </main>
     );
   }
