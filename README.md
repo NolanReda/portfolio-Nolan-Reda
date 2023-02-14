@@ -1,3 +1,5 @@
-# final-project
+# Nolan Reda's Portfolio
 
-A full stack JavaScript solo project.
+---
+
+A portfolio website to display the talents of myself.
