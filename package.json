@@ -1,4 +1,5 @@
 {
+  "homepage": "http://NolanReda.github.io/protfolio",
   "name": "final-project",
   "version": "1.0.0",
   "private": true,
@@ -6,6 +7,8 @@
   "main": "server/index.js",
   "scripts": {
     "start": "NODE_ENV=production node .",
+    "predeploy" : "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "NODE_ENV=development nodemon .",
     "build": "NODE_ENV=production webpack",
     "db:import": "sh database/import.sh",
