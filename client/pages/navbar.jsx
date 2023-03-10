@@ -15,7 +15,7 @@ export default class Navbar extends React.Component {
           <div className="navbar-nav">
             <a className="nav-item nav-link active link-color" href="#">Hello<span className="sr-only">(current)</span></a>
             <a className="nav-item nav-link link-color" href="#resume">Resume</a>
-            <a className="nav-item nav-link link-color" href="#projects">Projects</a>
+            <a className="nav-item nav-link link-color" href="#projects">Project</a>
           </div>
         </div>
         <div className='nav-socials'>
