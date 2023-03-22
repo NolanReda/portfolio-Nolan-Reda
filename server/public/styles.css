@@ -49,11 +49,12 @@
 .intro-box {
   background-color: #e6e6e6;
   height: 38rem;
-  background-image: url("img/nolan-hero.png");
+
+  /* background-image: url("img/nolan-hero.png");
   background-size: 46%;
   background-repeat: no-repeat;
   background-position: right 2rem bottom 1rem;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
 
 .hello-nolan {
@@ -67,8 +68,13 @@
 }
 
 .personal-photo {
-  height: 26rem;
+  height: 35rem;
   flex-basis: 50%;
+  background-image: url("img/nolan-hero.png");
+  background-size: 46%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right 3rem top 10rem;
 }
 
 .myself {

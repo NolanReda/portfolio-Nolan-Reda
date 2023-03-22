@@ -26,7 +26,7 @@ export default class Home extends React.Component {
     return (
       <main className=''>
         <div id='intro-box' className='intro-box d-flex'>
-          <div className='mt-5 text-center hello-nolan'>
+          <div className='col-half mt-5 text-center hello-nolan'>
             <div className='line' />
             <div id='name' className='name'>
               <p className='text-size text-monospace text-left'>Nolan Reda<br /> Software Developer</p>
@@ -47,7 +47,7 @@ export default class Home extends React.Component {
               </button>
             </div>
           </div>
-          <div className='personal-photo d-flex justify-content-center align-items-center mt-5' />
+          <div className='col-half personal-photo d-flex justify-content-center align-items-center mt-5' />
         </div>{/* end of top-box */}
         <div id='skills-box' className='skills-box d-flex mt-5' />
         <div id='technologies' className='technologies mb-5 text-center'>
