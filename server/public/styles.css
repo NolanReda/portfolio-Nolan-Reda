@@ -235,6 +235,10 @@
     width: 107vw;
   }
 
+  .personal-photo {
+    display: none;
+  }
+
   .about-me {
     padding: 0 2rem;
     width: 20rem;
