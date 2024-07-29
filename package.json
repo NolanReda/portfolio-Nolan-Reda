@@ -6,10 +6,12 @@
   "description": "A full stack JavaScript solo project.",
   "main": "server/index.js",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "NODE_ENV=production node .",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
+    "dev": "NODE_ENV=development nodemon .",
+    "build": "NODE_ENV=production webpack",
+    "db:import": "sh database/import.sh",
     "prepare": "husky install"
   },
   "dependencies": {
